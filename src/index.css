@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #0f1b2d;
+  background: #fff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+section {
+  scroll-margin-top: 0;
+}
+
+/* Página genérica (títulos de páginas internas) */
+.page {
+  padding-top: 7rem;
+}
+
+.page__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 5rem;
+}
+
+.page__header {
+  text-align: center;
+  padding: 3rem 1.5rem 1rem;
+}
+
+/* Simulador na home */
+.simulator {
+  background: #0f1b2d;
+  padding: 6rem 1.5rem;
+}
+
+.simulator .section-title {
+  color: #fff;
+}
+
+.simulator .section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.simulator .section-eyebrow {
+  color: #d4af37;
+}
+
+.simulator__inner {
+  max-width: 860px;
+  margin: 0 auto;
+}

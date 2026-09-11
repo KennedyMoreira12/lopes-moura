@@ -1,0 +1,101 @@
+.sell .page__inner {
+  padding-top: 0.5rem;
+}
+
+.sell__inner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sell__form {
+  background: #fff;
+  border: 1px solid #eef1f6;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(15, 27, 45, 0.08);
+}
+
+.sell__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.sell__form .field {
+  margin-bottom: 1.1rem;
+}
+
+.sell__submit {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.sell__success {
+  margin-top: 1rem;
+  color: #16794a;
+  background: #e6f6ee;
+  border: 1px solid #b4e2c8;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+}
+
+.sell__side {
+  background: #0f1b2d;
+  border-radius: 14px;
+  padding: 2.2rem;
+  color: #fff;
+  position: sticky;
+  top: 100px;
+}
+
+.sell__card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  margin: 0 0 1.2rem;
+}
+
+.sell__card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.sell__card li {
+  padding-left: 1.6rem;
+  position: relative;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.sell__card li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d4af37;
+}
+
+@media (max-width: 850px) {
+  .sell__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .sell__side {
+    position: static;
+  }
+
+  .sell__row {
+    grid-template-columns: 1fr;
+  }
+}
