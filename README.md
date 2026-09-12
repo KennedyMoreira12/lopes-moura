@@ -1,16 +1,43 @@
-# React + Vite
+# 🏢 Lopes & Moura — Empreendimentos e Imobiliária
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site institucional do **Grupo Lopes & Moura Empreendimentos e Imobiliária**, com foco em compra, venda e locação de imóveis residenciais e comerciais, atendendo a Grande São Paulo e região.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- Apresentação institucional da imobiliária
+- Página responsiva e otimizada para SEO (Open Graph, JSON-LD)
+- **Chat de atendimento** com API serverless (rota `/api/chat`)
+- Sitemap e robots.txt para indexação
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias
 
-## Expanding the Oxlint configuration
+- **React 19**
+- **Vite 8**
+- **React Router DOM 7**
+- **Oxlint** — Lint
+- API serverless integrada ao deploy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Como executar localmente
+
+```bash
+# instale as dependências
+npm install
+
+# rode em modo desenvolvimento
+npm run dev
+```
+
+Acesse [http://localhost:5173](http://localhost:5173).
+
+## 📦 Build de produção
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+👨‍💻 **Autor:** [John Kennedy Moreira dos Santos](https://www.linkedin.com/in/john-kennedy-moreira-dos-santos-405aa7128)
